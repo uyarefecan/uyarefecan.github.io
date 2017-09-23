@@ -1,4 +1,4 @@
-var o = {
+/*var o = {
 	init: function(){
 		this.diagram();
 	},
@@ -58,4 +58,4 @@ var o = {
 		
 	}
 }
-$(function(){ o.init(); });
+$(function(){ o.init(); });*/
