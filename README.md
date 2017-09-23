@@ -1,1 +1,0 @@
-# uyarefecan.github.io
