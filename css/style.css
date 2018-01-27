@@ -1291,3 +1291,13 @@ input[type="text"] {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+/* CUSTOM CSS */
+
+.phone{
+  color: white;
+}
+
+.phone:hover {
+  background-color: #4d4d4d;
+}
