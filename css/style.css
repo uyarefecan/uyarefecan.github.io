@@ -335,6 +335,51 @@ h6,
     background-repeat: no-repeat;
 }
 
+/*** Service NON HOVER***/
+
+.service-nonhover {
+    position: relative;
+    padding: 45px 30px;
+    background: var(--light);
+    overflow: hidden;
+    transition: .5s;
+}
+
+.service-nonhover .service-nonhovericon {
+    margin: 0 auto 20px auto;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--light);
+    background: url(../img/blob-primary.png) center center no-repeat;
+    background-size: contain;
+    transition: .5s;
+}
+
+.service-nonhovericon {
+    color: var(--dark);
+    background: url(../img/blob-secondary.png) center center no-repeat;
+    background-size: contain;
+}
+
+.service-nonhover h5,
+.service-nonhover p {
+    transition: .5s;
+}
+
+.service-nonhoveritem a.btn {
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--primary);
+    background: #FFFFFF;
+    border-radius: 40px 40px 0 0;
+    transition: .5s;
+    z-index: 1;
+}
 
 /*** Service ***/
 .service-item {
